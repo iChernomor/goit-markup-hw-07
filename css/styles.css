@@ -409,7 +409,7 @@ img {
   height: 40px;
 }
 
-.form-field input::placeholder {
+.form__input::placeholder {
   color: rgba(117, 117, 117, 0.5);
   
 }
