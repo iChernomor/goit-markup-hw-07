@@ -11,7 +11,7 @@
     />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 
-    <link rel="stylesheet" href="./css/bem.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка-->
@@ -61,27 +61,27 @@
           <!-- Modalka-window -->
           <div class="backdrop is-hidden" data-modal>
             <div class="backdrop__modal">
-              <h3 class="backdrop-title">Оставьте свои данные, мы вам перезвоним</h3>
+              <h3 class="backdrop__title">Оставьте свои данные, мы вам перезвоним</h3>
               <form class="form">
                 
                   <label class="form__field">Имя
                     <input type="text" name="name" placeholder=" " class="form__input">
                     <span class="form__icon"></span>
                     <svg class="form__iconname" width=" 13px" height="13px">
-                      <use href="./images/icons__svg#"></use>
+                      <use href="./images/icons.svg#form-icon-name"></use></svg>
                   </label>
                      <!-- пустой placeholder не работает, нужен ПРОБЕЛ -->
                    <label class="form__field">Телефон
                     <input type="tel" name="tel" placeholder=" " class="form__input">
                     <span class="form__icon"></span>
                     <svg class="form__iconname" width=" 13px" height="13px">
-                      <use href="./images/icons.svg#form-icon-tel"></use>
+                      <use href="./images/icons.svg#form-icon-tel"></use></svg>
                   </label>
                   <label class="form__field ">Почта
                     <input type="email" name="mail" placeholder=" " class="form__input">
                     <span class="form__icon"></span>
                     <svg class="form__iconname form-icon" width=" 13px" height="13px">
-                      <use href="./images/icons.svg#form-icon-mail"></use>
+                      <use href="./images/icons.svg#form-icon-mail"></use></svg>
                   </label>
                   <label class="form__field form__comment">Комментарий
                   <textarea name="comment" cols="auto" rows="10" placeholder="Введите текст" class="form__input form__textarea"></textarea>
@@ -186,10 +186,10 @@
                       </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                 </ul>
               </div>
             </li>
@@ -207,10 +207,10 @@
                       </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                 </ul>
               </div>
             </li>
@@ -228,10 +228,10 @@
                       </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                 </ul>
               </div>
             </li>
@@ -247,10 +247,10 @@
                       </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg><a href=""></a></li>
+                  </svg></a></li>
                   <li class="social__item"><a href="" class="social__link"><svg class="social__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg><a href=""></a></li>
+                      </svg></a></li>
                 </ul>
               </div>
             </li>
@@ -329,11 +329,12 @@
                 </svg></a></li>
             <li class="footer-social__item"><a href="" class="footer-social__link"><svg class="footer-social__icon">
                   <use href="./images/icons.svg#icon-footer-facebook"></use>
-                </svg><a href=""></a></li>
+                </svg></a></li>
             <li class="footer-social__item"><a href="" class="footer-social__link"><svg class="footer-social__icon">
                   <use href="./images/icons.svg#icon-footer-linkedin"></use>
-                </svg><a href=""></a></li>
+                </svg></a></li>
           </ul>
+
         </div>
         <div class="footer-subscribe">
           <h3 class="footer-subscribe__title">Подпишись на рассылку</h3>
@@ -342,7 +343,7 @@
             <input type="text" name="name" placeholder="E-mail" class="footer-subscribe__input">
           </label>
             <button type="submit" class="footer-subscribe__button">Подписаться<svg class="footer-subscribe__icon" width=" 24px" height="24px">
-              <use href="./images/icons.svg#icon-footer-subscribe"></use></button>
+              <use href="./images/icons.svg#icon-footer-subscribe"></use></svg></button>
           </form>
         </div>
       </div>
