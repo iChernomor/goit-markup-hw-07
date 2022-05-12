@@ -6,7 +6,6 @@
     padding-bottom: 60px;
     display: flex;
   }
-
   &__itemtop {
     margin-top: 20px;
   }
@@ -16,12 +15,7 @@
   }
 
   &__address {
-    color: var(--white-color-text);
-    font-size: 14px;
-    line-height: 1.71;
-    text-decoration: none;
-    margin-right: 70px;
-    transition: color var(--animation);
+    font-style: normal;
   }
 
   &__contact {
@@ -31,6 +25,10 @@
     text-decoration: none;
     /* margin-bottom: 9px; */
     transition: color var(--animation);
+  }
+  &__contact--white {
+    color: var(--white-color-text);
+    margin-right: 70px;
   }
   &__contact:hover,
   &__contact:focus {

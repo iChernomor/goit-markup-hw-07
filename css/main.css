@@ -23,7 +23,7 @@
 
 body {
   background-color: #ffffff;
-  color: primary-text-color;
+  color: var(--primary-text-color);
   font-family: "Roboto", "Helvetica Neue", sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
@@ -640,12 +640,7 @@ img {
 }
 
 .footer__address {
-  color: var(--white-color-text);
-  font-size: 14px;
-  line-height: 1.71;
-  text-decoration: none;
-  margin-right: 70px;
-  transition: color var(--animation);
+  font-style: normal;
 }
 
 .footer__contact {
@@ -655,6 +650,11 @@ img {
   text-decoration: none;
   /* margin-bottom: 9px; */
   transition: color var(--animation);
+}
+
+.footer__contact--white {
+  color: var(--white-color-text);
+  margin-right: 70px;
 }
 
 .footer__contact:hover, .footer__contact:focus {
